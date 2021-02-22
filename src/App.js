@@ -7,7 +7,9 @@ class App extends Component {
   render() {
     return(
       <div className = 'container'>
-        <h1>App Run</h1>
+        <div className = 'jumbotron'>
+          <h1 className='display-3' style = {{textAlign: 'center'}}>App Run</h1>
+        </div>
         <ArticleList articles = {articles}/>
       </div>
     );
